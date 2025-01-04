@@ -1,0 +1,42 @@
+# Description
+- Data Collection and Processing:
+    - Developed an automated data extraction system using Playwright and PRAW
+    - Collected over 10,000 data points from Twitter and approximately 20GB of Reddit data
+    - Implemented filtering mechanisms using crime-related keywords
+    - Utilized asyncio for concurrent task execution and nest_asyncio for seamless integration in Jupyter notebooks
+    - Employed hashlib to generate unique hashes for tweets, preventing duplicate entries
+- Data Preprocessing:
+    - Performed tokenization, stop-word removal, and lemmatization on social media data
+    - Tagged keywords with 'crime_type' feature for contextual insight
+    - Standardized geolocation data at the state level using a geolocation dictionary
+    - Normalized and merged data from different states for consistency
+    - Cleaned and normalized historical crime data to align with social media data formats
+- Sentiment Analysis and Scoring:
+    - Utilized NLTK and TextBlob libraries for sentiment analysis
+    - Developed a custom scoring mechanism with crime severity weighting
+    - Assigned polarity scores ranging from -1 to 1 to classify posts as negative, neutral, or positive
+    - Created a nuanced scoring system for contextualizing crime severity across states
+    - Implemented a weighted summation approach for crime severity scoring
+- Machine Learning Implementation:
+    - Applied Principal Component Analysis (PCA) for feature selection and dimensionality reduction
+    - Utilized Random Forest classification for crime trend prediction
+    - Incorporated temporal features to ensure adaptability to recent conditions
+    - Integrated sentiment analysis results with historical data modeling
+- Visualization and Analysis:
+    - Created visualizations for average severity scores across crime categories
+    - Developed time-series analysis of crime severity trends from 2000 to 2024
+    - Generated geolocation-based crime severity mapping at the state level
+- Model Evaluation:
+    - Achieved 87% accuracy in sentiment analysis through manual labeling and validation
+    - Compared predicted crime severity rankings against established crime indexes
+    - Validated results by cross-referencing with rankings from Wikipedia, USA News, and Numbeo
+- Key Features Implemented:
+    - Real-time adaptability through integration of live sentiment data
+    - Mitigation of biases inherent in historical data
+    - Dynamic adjustment to changes in sentiment and historical patterns
+    - Enhanced community-police relations through direct understanding of public concerns
+    - Proactive crime prevention strategies based on social media sentiment
+- This project demonstrates a comprehensive approach to crime prediction, combining advanced data collection techniques, sophisticated preprocessing, sentiment analysis, machine learning, and thorough evaluation methods. It showcases the integration of real-time social media data with historical crime statistics to create a more dynamic and responsive predictive model.
+
+# Links to Project: 
+- [Github](https://github.com/varunnn789/Crime-Detection-Using-Sentiment)
